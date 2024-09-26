@@ -49,7 +49,7 @@ DB_PWD=password
 
 5. Modify `template.yaml` with the ARN for your Lambda IAM role. 
 
-6. In `command.sh`, modify the `--s3-bucket` parameter value of hte `aws cloudformation package` command with the name of your S3 bucket where the Lambda package should be uploaded.
+6. In `command.sh`, modify the `--s3-bucket` parameter value of the `aws cloudformation package` command with the name of your S3 bucket where the Lambda package should be uploaded.
 
 7. From `command.sh` execute the commands under "zip dependencies from virtualenv and source files" which will create the `lambda.zip` deployment package in the `src` directory.
 
